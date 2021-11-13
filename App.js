@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import logo from './AdditionalLogo.svg';
 import './App.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+	<img src={AdditionalLogo} className="App-AdditionalLlogo" alt="AdditionalLogo" />
         <p>
           I CHANGED THE MESSAGE!
         </p>
